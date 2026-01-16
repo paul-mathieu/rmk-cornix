@@ -89,11 +89,17 @@ matrix_map = """
 [[layer]]
 name = "base_layer"
 keys = """
-ESC     Q     W     E     R      T                Y     U      I      O     P          BSPC
+ESC     Q     W     R     T      Y                U     I      O      P     P          BSPC
 TAB     A     S     D     F      G                H     J      K      L     SEMICOLON  QUOT
 LSHIFT  Z     X     C     V      B    NO    NO    N     M      COMMA  DOT   SLASH      RSHIFT
 LCTRL   LGUI  LALT  NO    SPACE  NO               NO    ENTER  NO     RALT  MENU       RCTRL
 """
+# keys = """
+# TAB     Q     W     R     T      Y                 U     I     O      P      LBRC      BSPC
+# CAPS    A     S     D     F      G                 H     J     K      L      BSLASH    QUOT
+# LSHIFT  Z     X     C     V      B     NO    NO    N     M     COMMA  PERIOD UP        SLASH
+# LCTRL   LALT  LGUI  NO    NO     SPACE             SPACE NO    ENTER  LEFT   DOWN      RIGHT
+# """
 encoders = [["PgDn", "PgUp"], ["AudioVolUp", "AudioVolDown"]]
 
 [behavior.one_shot]
